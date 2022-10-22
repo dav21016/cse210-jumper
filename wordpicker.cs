@@ -1,7 +1,7 @@
 // Class to create a list with words and return a random word from it
 public class WordPicker {
     List<string> wordsList = new List<string>();
-    string randomWord;
+    string randomWord = null!;
     int index;
     Random random = new Random();
     

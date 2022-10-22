@@ -63,7 +63,7 @@ public class Player {
         jumper.DrawJumper(list);
     }
 
-    public string getLetter(string randomWord) {
+    public string getLetter(string? randomWord) {
         
         Console.WriteLine();
         Console.WriteLine();
