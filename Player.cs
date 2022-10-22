@@ -1,8 +1,7 @@
 public class Player {
     string randomWord;
     int count;
-    public Player() {
-    }
+    public Player() {}
 
     public void StartGame() {
         List<string> blankSpaces = new List<string>();
